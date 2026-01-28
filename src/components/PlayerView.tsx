@@ -164,7 +164,7 @@ export function PlayerView({ splatUrl, rail, className }: PlayerViewProps) {
   return (
     <Card
       className={`bg-background/90 backdrop-blur-sm py-3 gap-2 transition-all duration-200 ${
-        isExpanded ? "w-[50vw]" : "w-96"
+        isExpanded ? "w-[40vw]" : "w-96"
       } ${className}`}
     >
       <CardHeader className="pb-0 flex flex-row items-center justify-between">
